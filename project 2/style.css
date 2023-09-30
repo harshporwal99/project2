@@ -1,0 +1,311 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: #bebaba;
+  }
+
+  #nav{
+    width: 100%;
+    height: 10%;
+    background-color: #F6A87A;
+    display: flex;
+  gap: 100px;
+  }
+
+  #nav>h1{
+    position: relative;
+    left:1px;
+ top:20%;
+ color: black;
+  }
+
+
+  #stable
+  {
+    position: relative;
+    left: -10px;
+    width: 160px;
+    top: 17%;
+    border-radius: 15px;
+    height: 40px;
+    background-color: #fff;
+  }
+
+
+  #stable>h2
+  {
+    color: red;
+    position: relative;
+    padding: 2px;
+    left:10px;
+  }
+
+  #nav .resources>img
+  {
+    position: relative;
+    top: 6px;
+left: 400px;
+width: 34px;
+height: 34px;
+  }
+
+
+  #nav .resources>h3
+  {
+    position: relative;
+    top: 6px;
+left: 380px;
+width: 34px;
+height: 34px;
+color: black;
+  }
+
+  #nav .navigation>img
+  {
+    position: relative;
+    top: 6px;
+left: 450px;
+width: 34px;
+height: 34px;
+  }
+
+  #nav .navigation>h3
+  {
+    position: relative;
+    top: 6px;
+left: 430px;
+width: 34px;
+height: 34px;
+color: black;
+  }
+
+
+  #nav .exit>img
+  {
+    position: relative;
+    top: 6px;
+left: 500px;
+width: 34px;
+height: 34px;
+  }
+
+  
+  #nav .exit>span
+  {
+    position: relative;
+    top: 26px;
+left: 430px;
+width: 40px;
+height: 20px;
+color: black;
+font-size: 18px;
+font-weight: 2px;
+
+
+  }
+
+  b
+  {
+    color: black;
+
+
+  }
+
+  #page{
+    width: 95%;
+    height: 77%;
+    background-color: #f4efef;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    left:30px;
+    border-radius: 15px;
+  }
+
+
+  #page_left .page_left>img
+  {
+    position: relative;
+    top: 30px;
+left: 70px;
+  height: 250px;
+  width:410px;
+  object-fit: cover;
+  border-radius: 25px;
+  opacity: 1;
+  margin-bottom: 4px;
+
+  }
+
+  #page_left .page_down>img
+  {
+    position: relative;
+    top: 30px;
+left: 70px;
+  height: 250px;
+  width:410px;
+  object-fit: cover;
+  border-radius: 25px;
+  opacity: 1;
+
+  }
+
+
+
+#page_right
+{
+    position: relative;
+    top: 40px;
+    left:-80px;
+    height: 465px;
+    width:60%;
+}
+
+.circle{
+    background-color: rgb(151, 144, 144);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    align-items: center;
+}
+
+
+.page_right_container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    padding: 1% 2% ;
+}
+
+.text{
+    width: 80%;
+}
+
+.text h3{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#right_bottom{
+    border: 2px solid rgb(39, 38, 38);
+    border-radius:18px;
+    height: 70px;
+    width: 90%;
+    padding: 1%;
+    margin-left: 5%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#right_bottom h3{
+    color: black;
+    margin-left: 2%;
+}
+
+
+#bottom
+{
+    height:11%;
+    width:100%;
+    background-color: #fff;
+    display: flex;
+    border: 1px solid black;
+}
+
+
+#bottom .text>img
+{
+    position: relative;
+    left: 0px;
+    width: 440px;
+    height: 76px;
+    top: 0%;
+    border: 1px solid black;
+}
+
+#bottom>h2
+{
+    color: black;
+    position: relative;
+    left: 440px;
+    top:25%;
+   
+}
+
+#bottom_1>img{
+    width: 60px;
+    height: 76px;
+    border: 1px solid black;
+  
+}
+
+.arrow_left
+{
+    position: relative;
+    left: 400px;
+    top:8%;
+
+}
+
+.arrow_right
+{
+    position: relative;
+    left: 480px;
+    top:8%;
+}
+
+
+#bottom_3>img{
+    width: 30px;
+    height: 40px;
+    position: relative;
+   left: 160px;
+ top: 20%;
+}
+
+
+.refresh>img{
+    width: 30px;
+    height: 40px;
+    position: relative;
+   left: 60px;
+ top:22%;
+}
+
+.line>img{
+    width: 510px;
+    
+    height: 4px;
+    position: relative;
+    top:30%;
+    left: -500px;
+}
+
+/* #bottom_2>img{
+ width: 300px;
+height: 80px;
+}
+
+
+
+/* #bottom_4>img{
+    width: 60px;
+    height: 70px;
+} */
+ 
